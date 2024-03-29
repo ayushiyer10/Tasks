@@ -20,7 +20,7 @@ fun main() {
     
     val gross = ots + weekly
 
-//calculation of net pay according to gross pay
+//calculation of net pay according to gross pay, when gross is less than or equal to 350 15% tax is implied. When gross is greater than 300 and less than or equal to 450, 20% tax will be applied on next 150 and when gross is greater than 450, 25% tax will be applied on remaining.
     val net: Double = when {
         gross <= 300 -> {
             val tax = gross * 0.15
