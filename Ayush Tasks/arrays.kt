@@ -8,7 +8,9 @@ for (brand in brands) {
 
 if ("Crocs" in brands) {
     println(brands[2])
-} else {
+} 
+else {
     println("It does not exist")
 }
+println(brands.contentDeepToString())
 }
