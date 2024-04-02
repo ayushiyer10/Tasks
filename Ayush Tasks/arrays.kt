@@ -14,3 +14,11 @@ else {
 }
 println(brands.contentDeepToString())
 }
+
+
+fun main() {
+    val inputString = "Hello, World!"
+    val uppercaseString = inputString.toUpperCase()
+    println("Original string: $inputString")
+    println("Uppercase string: $uppercaseString")
+}
