@@ -12,19 +12,32 @@
       android:layout_width="wrap_content"
       android:layout_height="0dp"
       android:layout_marginTop="32dp"
-      app:layout_constraintBottom_toTopOf="@id/btnchange"
+      app:layout_constraintBottom_toTopOf="@id/btnChange"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 
   <Button
-      android:id="@+id/btnchange"
+      android:id="@+id/btnChange"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginBottom="112dp"
+      android:layout_marginBottom="120dp"
       android:text="Change"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.13"
       app:layout_constraintStart_toStartOf="parent" />
+
+  <Button
+      android:id="@+id/btnCamera"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="112dp"
+      android:text="Camera"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.83"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@id/btnChange"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
